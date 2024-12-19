@@ -33,7 +33,7 @@ API_HASH = os.environ.get("API_HASH", "1c4cb9d94b23282abd9ae2a87a521b53")
 #your channel_id from https://t.me/MissRose_bot by forwarding dummy message to rose and applying command `/id` in reply to that message
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002267485347"))
 #your id of telegram can be found by https://t.me/MissRose_bot with '/id' command
-OWNER_ID = int(os.environ.get("OWNER_ID", "1290041629"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "8074755883"))
 #port set to default 8080
 PORT = os.environ.get("PORT", "2346")
 #your database url mongodb only You can use mongo atlas free cloud database
@@ -62,9 +62,9 @@ https://dashboard.shareus.io/
 USE_SHORTLINK = True if os.environ.get('USE_SHORTLINK', "TRUE") == "TRUE" else False 
 # only shareus service known rightnow rest you can test on your own
 SHORTLINK_API_URL = os.environ.get("SHORTLINK_API_URL", "instantearn.in")
-# SHORTLINK_API_KEY = os.environ.get("SHORTLINK_API_KEY", "584679922967b438bc43acaf62a5c10e8fa50a7d")
+# SHORTLINK_API_KEY = os.environ.get("SHORTLINK_API_KEY", "a211f4e8cdd64a7aec3e51d33051777858b2d9e1")
 #use this key if not working ☠️ (jokin!!)
-SHORTLINK_API_KEY = os.environ.get("SHORTLINK_API_KEY", "584679922967b438bc43acaf62a5c10e8fa50a7d")
+SHORTLINK_API_KEY = os.environ.get("SHORTLINK_API_KEY", "a211f4e8cdd64a7aec3e51d33051777858b2d9e1")
 #add your custom time in secs for shortlink expiration.
 # 24hr = 86400
 # 12hr = 43200
